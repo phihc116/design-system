@@ -1,21 +1,27 @@
 name: Publish Private Package to GitHub Packages (npm)
 
 on:
-  push: 
+  push:
+    branches:
+      - production  # Chỉ chạy trên branch production (có thể chỉnh)
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Cho phép commit & push
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DEFAULT_GITHUB_SETTINGS_PAT }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: 'https://npm.pkg.github.com/'
 
       - name: Clean cache & fresh install
         run: |
@@ -23,16 +29,26 @@ jobs:
           rm -rf node_modules package-lock.json
           npm install
 
-
       - name: Build the Package
         run: npm run build
 
       - name: Bump version (patch)
         run: npm version patch --no-git-tag-version
 
-      - name: Show bumped version
+      - name: Commit and Push bumped version
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
         run: |
-          echo "New version: $(npm pkg get version | tr -d '"')"        
+          git add package.json package-lock.json
+          git commit -m "ci: bump version to $(npm pkg get version | tr -d '"')" || echo "No changes to commit"
+          git push origin HEAD
+
+      - name: Show bumped version
+        run:  |
+          echo "New version: $(npm pkg get version | tr -d '"')"
 
       - name: Publish to GitHub Packages (npm.pkg.github.com)
         env:
