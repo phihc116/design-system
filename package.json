@@ -1,5 +1,5 @@
 {
-	"name": "@namvinh/design-system",
+	"name": "@phihc116/design-system",
 	"version": "0.1.9",
 	"type": "module",
 	"style": "./styles.css",
@@ -128,10 +128,10 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NamVinh/herond-design-system.git"
+		"url": "git+https://github.com/phihc116/design-system.git"
 	},
 	"bugs": {
-		"url": "https://github.com/NamVinh/herond-design-system/issues"
+		"url": "https://github.com/phihc116/design-system/issues"
 	},
-	"homepage": "https://github.com/NamVinh/herond-design-system"
+	"homepage": "https://github.com/phihc116/design-system"
 }
