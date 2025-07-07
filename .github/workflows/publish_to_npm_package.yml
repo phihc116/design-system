@@ -3,7 +3,7 @@ name: Publish Private Package to GitHub Packages (npm)
 on:
   push:
     branches:
-      - production  # Chạy trên branch production
+      - production  # Chạy trên branch production 1
 
 jobs:
   publish:
