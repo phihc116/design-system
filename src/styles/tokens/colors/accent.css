@@ -1,0 +1,14 @@
+:root {
+	--color-brand-accent-light: #20cb73ff;
+	--color-brand-accent-40-light: #2fd98166;
+	--color-brand-accent-button-bezeled-fill-light: #2fd9811a;
+	--color-brand-accent-button-bezeled-fill-hover-light: #2fd98133;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-accent-dark: #2fe888ff;
+	--color-brand-accent-40-dark: #2fd98166;
+	--color-brand-accent-button-bezeled-fill-dark: #2fd9811f;
+	--color-brand-accent-button-bezeled-fill-hover-dark: #2fd9812e;
+}

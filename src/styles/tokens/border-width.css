@@ -1,0 +1,7 @@
+:root {
+	--border-width-none: 0;
+	--border-width-thinner: 0.5;
+	--border-width-thin: 1;
+	--border-width-thick: 1.5;
+	--border-width-thicker: 2;
+}

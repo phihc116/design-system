@@ -1,0 +1,7 @@
+:root {
+    --color-brand-pink-light: #ff2d55ff;
+}
+.dark,
+.dark-theme {
+    --color-brand-pink-dark: #ff375fff;
+}

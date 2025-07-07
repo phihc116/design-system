@@ -1,0 +1,13 @@
+:root {
+    --color-brand-red-light: #ff3b30ff;
+    --color-brand-red-40-light: #ff3b3066;
+    --color-brand-red-button-bezeled-fill-light: #ff3b301a;
+    --color-brand-red-button-bezeled-fill-hover-light: #ff3b3033;
+}
+.dark,
+.dark-theme {
+    --color-brand-red-dark: #ff453aff;
+    --color-brand-red-40-dark: #ff453a66;
+    --color-brand-red-button-bezeled-fill-dark: #ff453a1a;
+    --color-brand-red-button-bezeled-fill-hover-dark: #ff453a1a;
+}

@@ -1,0 +1,9 @@
+:root {
+    --color-brand-yellow-light: #ffcc00ff;
+    --color-brand-yellow-acid-light: #ffff23ff;
+}
+.dark,
+.dark-theme {
+    --color-brand-yellow-dark: #ffd60aff;
+    --color-brand-yellow-acid-dark: #ffff54ff;
+}

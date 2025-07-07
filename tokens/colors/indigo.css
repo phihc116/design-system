@@ -1,0 +1,7 @@
+:root {
+    --color-brand-indigo-light: #5856d6ff;
+}
+.dark,
+.dark-theme {
+    --color-brand-indigo-dark: #5e5ce6ff;
+}

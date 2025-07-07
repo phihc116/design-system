@@ -1,0 +1,16 @@
+:root {
+	--color-separators-card-photo-stroke-light: #00000026;
+	--color-separators-inverted-primary-light: #0000004d;
+	--color-separators-inverted-secondary-light: #0000000f;
+	--color-separators-non-opaque-light: #3c3c435c;
+	--color-separators-opaque-light: #c6c6c8ff;
+}
+
+.dark,
+.dark-theme {
+	--color-separators-card-photo-stroke-dark: #ffffff26;
+	--color-separators-inverted-primary-dark: #ffffff26;
+	--color-separators-inverted-secondary-dark: #ffffff1f;
+	--color-separators-non-opaque-dark: #545458a6;
+	--color-separators-opaque-dark: #38383aff;
+}

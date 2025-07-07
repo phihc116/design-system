@@ -1,0 +1,8 @@
+:root {
+	--color-brand-cyan-light: #32ade6ff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-cyan-dark: #64d2ffff;
+}

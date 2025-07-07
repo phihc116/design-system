@@ -1,0 +1,9 @@
+:root {
+	--border-radius-none: 0;
+	--border-radius-xs: 0.5;
+	--border-radius-small: 2;
+	--border-radius-medium: 4;
+	--border-radius-large: 8;
+	--border-radius-x-large: 12;
+	--border-radius-2x-large: 1;
+}

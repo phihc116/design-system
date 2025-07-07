@@ -1,0 +1,20 @@
+:root {
+	--color-fills-primary-light: #78788033;
+	--color-fills-secondary-light: #78788029;
+	--color-fills-tertiary-light: #7676801f;
+	--color-fills-quaternary-light: #74748014;
+	--color-fills-vibrant-primary-light: #7f7f7f80;
+	--color-fills-vibrant-secondary-light: #7f7f7f66;
+	--color-fills-vibrant-tertiary-light: #7f7f7f33;
+}
+
+.dark,
+.dark-theme {
+	--color-fills-primary-dark: #7878805c;
+	--color-fills-secondary-dark: #78788052;
+	--color-fills-tertiary-dark: #7676803d;
+	--color-fills-quaternary-dark: #7474802e;
+	--color-fills-vibrant-primary-dark: #7f7f7f80;
+	--color-fills-vibrant-secondary-dark: #7f7f7f66;
+	--color-fills-vibrant-tertiary-dark: #7f7f7f33;
+}

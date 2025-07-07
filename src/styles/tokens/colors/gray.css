@@ -1,0 +1,46 @@
+:root {
+	--color-brand-gray0-light: #ffffffff;
+	--color-brand-gray50-light: #f8f8f8ff;
+	--color-brand-gray100-light: #f1f0efff;
+	--color-brand-gray200-light: #e6e4e2ff;
+	--color-brand-gray300-light: #d3d1cfff;
+	--color-brand-gray400-light: #b9b5b0ff;
+	--color-brand-gray500-light: #a8a49eff;
+	--color-brand-gray600-light: #87827bff;
+	--color-brand-gray700-light: #706c65ff;
+	--color-brand-gray800-light: #5e5b56ff;
+	--color-brand-gray900-light: #514f4bff;
+	--color-brand-gray950-light: #292826ff;
+	--color-grays-black-light: #000000ff;
+	--color-grays-gray-light: #8e8e93ff;
+	--color-grays-gray2-light: #aeaeb2ff;
+	--color-grays-gray3-light: #c7c7ccff;
+	--color-grays-gray4-light: #d1d1d6ff;
+	--color-grays-gray5-light: #e5e5eaff;
+	--color-grays-gray6-light: #f2f2f7ff;
+	--color-grays-white-light: #ffffffff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-gray0-dark: #ffffffff;
+	--color-brand-gray50-dark: #f8f8f8ff;
+	--color-brand-gray100-dark: #f1f0efff;
+	--color-brand-gray200-dark: #e6e4e2ff;
+	--color-brand-gray300-dark: #d3d1cfff;
+	--color-brand-gray400-dark: #b9b5b0ff;
+	--color-brand-gray500-dark: #a8a49eff;
+	--color-brand-gray600-dark: #87827bff;
+	--color-brand-gray700-dark: #706c65ff;
+	--color-brand-gray800-dark: #5e5b56ff;
+	--color-brand-gray900-dark: #514f4bff;
+	--color-brand-gray950-dark: #292826ff;
+	--color-grays-black-dark: #000000ff;
+	--color-grays-gray-dark: #8e8e93ff;
+	--color-grays-gray2-dark: #636366ff;
+	--color-grays-gray3-dark: #48484aff;
+	--color-grays-gray4-dark: #3a3a3cff;
+	--color-grays-gray5-dark: #2c2c2eff;
+	--color-grays-gray6-dark: #1c1c1eff;
+	--color-grays-white-dark: #ffffffff;
+}

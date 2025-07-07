@@ -1,0 +1,30 @@
+:root {
+	--color-overlay-accent-blue15-15-light: #ff0ae626;
+	--color-overlay-accent-blue24-12-light: #ff0ae61f;
+	--color-overlay-black15-15-light: #00000026;
+	--color-overlay-black29-12-light: #0000001f;
+	--color-overlay-black29-29-light: #00000047;
+	--color-overlay-black40-40-light: #00000066;
+	--color-overlay-black60-20-light: #00000033;
+	--color-overlay-black60-40-light: #00000066;
+	--color-overlay-black70-70-light: #000000b3;
+	--color-overlay-dimming-light: #18132b36;
+	--color-overlay-grabber-light: #3c3c434d;
+	--color-overlay-white15-15-light: #ffffff26;
+}
+
+.dark,
+.dark-theme {
+	--color-overlay-accent-blue15-15-dark: #ff0ae626;
+	--color-overlay-accent-blue24-12-dark: #ff0ae63d;
+	--color-overlay-black15-15-dark: #00000026;
+	--color-overlay-black29-12-dark: #00000047;
+	--color-overlay-black29-29-dark: #00000047;
+	--color-overlay-black40-40-dark: #00000066;
+	--color-overlay-black60-20-dark: #00000099;
+	--color-overlay-black60-40-dark: #00000099;
+	--color-overlay-black70-70-dark: #000000b3;
+	--color-overlay-dimming-dark: #18132b36;
+	--color-overlay-grabber-dark: #3c3c434d;
+	--color-overlay-white15-15-dark: #ffffff26;
+}

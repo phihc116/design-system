@@ -1,0 +1,22 @@
+:root {
+	--color-materials-chrome-light: #ffffffc0;
+	--color-materials-inverted-elevated-light: #0000000f;
+	--color-materials-inverted-secondary-light: #0000001f;
+	--color-materials-inverted-light: #0000000f;
+	--color-materials-regular-light: #eeeeeef7;
+	--color-materials-thick-light: #f2f2f2f7;
+	--color-materials-thin-light: #e9e9e9b3;
+	--color-materials-ultra-thin-light: #bfbfbf70;
+}
+
+.dark,
+.dark-theme {
+	--color-materials-chrome-dark: #000000c0;
+	--color-materials-inverted-elevated-dark: #ffffff1f;
+	--color-materials-inverted-secondary-dark: #ffffff1f;
+	--color-materials-inverted-dark: #ffffff1f;
+	--color-materials-regular-dark: #252525d1;
+	--color-materials-thick-dark: #252525e6;
+	--color-materials-thin-dark: #252525b3;
+	--color-materials-ultra-thin-dark: #2525258c;
+}

@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"lib": ["DOM", "ESNext", "DOM.Iterable"],
+		"jsx": "react-jsx",
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"outDir": "dist",
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"@components": ["./src/components"],
+			"@components/*": ["./src/components/*"],
+			"@helpers": ["./src/helpers"],
+			"@helpers/*": ["./src/helpers/*"],
+			"@props": ["./src/props"],
+			"@props/*": ["./src/props/*"]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+:root {
+	--color-brand-orange-light: #ff9500ff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-orange-dark: #ff9f0aff;
+}

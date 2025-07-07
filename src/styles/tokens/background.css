@@ -1,0 +1,32 @@
+:root {
+	--color-background-primary-base-light: #ffffffff;
+	--color-background-primary-elevated-light: #ffffffff;
+	--color-background-secondary-base-light: #f2f2f7ff;
+	--color-background-secondary-elevated-light: #f2f2f7ff;
+	--color-background-tertiary-base-light: #ffffffff;
+	--color-background-tertiary-elevated-light: #ffffffff;
+	--color-background-grouped-primary-base-light: #f2f2f7ff;
+	--color-background-grouped-primary-elevated-light: #f2f2f7ff;
+	--color-background-grouped-primary-high-light: #ffffffff;
+	--color-background-grouped-secondary-base-light: #ffffffff;
+	--color-background-grouped-secondary-elevated-light: #ffffffff;
+	--color-background-grouped-tertiary-base-light: #f2f2f7ff;
+	--color-background-grouped-tertiary-elevated-light: #f2f2f7ff;
+}
+
+.dark,
+.dark-theme {
+	--color-background-primary-base-dark: #0f0f0fff;
+	--color-background-primary-elevated-dark: #1c1c1eff;
+	--color-background-secondary-base-dark: #1c1c1eff;
+	--color-background-secondary-elevated-dark: #2c2c2eff;
+	--color-background-tertiary-base-dark: #2c2c2eff;
+	--color-background-tertiary-elevated-dark: #3a3a3cff;
+	--color-background-grouped-primary-base-dark: #0f0f0fff;
+	--color-background-grouped-primary-elevated-dark: #1c1c1eff;
+	--color-background-grouped-primary-high-dark: #3a3a3cff;
+	--color-background-grouped-secondary-base-dark: #1c1c1eff;
+	--color-background-grouped-secondary-elevated-dark: #2c2c2eff;
+	--color-background-grouped-tertiary-base-dark: #2c2c2eff;
+	--color-background-grouped-tertiary-elevated-dark: #3a3a3cff;
+}

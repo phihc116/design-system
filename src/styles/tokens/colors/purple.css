@@ -1,0 +1,8 @@
+:root {
+	--color-brand-purple-light: #af52deff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-purple-dark: #bf5af2ff;
+}

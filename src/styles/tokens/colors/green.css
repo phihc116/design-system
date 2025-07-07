@@ -1,0 +1,8 @@
+:root {
+	--color-brand-green-light: #34c759ff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-green-dark: #30d158ff;
+}

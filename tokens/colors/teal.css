@@ -1,0 +1,7 @@
+:root {
+    --color-brand-teal-light: #30b0c7ff;
+}
+.dark,
+.dark-theme {
+    --color-brand-teal-dark: #40c8e0ff;
+}

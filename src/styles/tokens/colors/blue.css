@@ -1,0 +1,8 @@
+:root {
+	--color-brand-blue-light: #007affff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-blue-dark: #0a84ffff;
+}

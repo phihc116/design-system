@@ -1,0 +1,8 @@
+:root {
+	--color-brand-mint-light: #00c7bfff;
+}
+
+.dark,
+.dark-theme {
+	--color-brand-mint-dark: #63e6e2ff;
+}
