@@ -1,6 +1,6 @@
 {
 	"name": "@phihc116/design-system",
-	"version": "0.1.9",
+	"version": "0.1.15",
 	"type": "module",
 	"style": "./styles.css",
 	"main": "./dist/index.cjs.js",
